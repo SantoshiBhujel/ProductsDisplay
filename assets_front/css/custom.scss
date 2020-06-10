@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+$color:(
+    primary: #607FF2,
+    secondary: #E9F4FF
+);
+
+@function color($colorName){
+    @return map-get($map: $color, $key: $colorName )
+};
+
+html{
+    font-size: 10px;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover, a:visited, a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    cursor: pointer;
+}
+a{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;  
+}
+.img_wrapper{
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    overflow: hidden;
+    background-repeat: no-repeat !important;
+}
+
+.header{
+    .navbar{
+        background: color(primary) !important;
+        a{
+            color: color(secondary) !important;
+        }
+    }
+    .collapse{
+        .navbar-nav{
+            margin-left: auto;
+            .nav-item{
+                margin: 0 1rem;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+// Login 
+.login{
+    font-size: 1.6rem !important;
+    background: color(secondary);
+    .container{
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+    form{
+        h1{
+            color: color(secondary);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        width: 60%;
+        margin: auto;
+        background: color(primary);
+        padding: 3rem;
+        border-radius: 1rem;
+        label{
+            color: color(secondary);
+            font-size: 1.8rem;
+        }
+        input[type="email"], input[type="password"], input[type="text"]{
+            color: black;
+            font-size: 1.6rem !important;
+            padding: 1rem .5rem !important;
+        }
+        ::placeholder{
+            font-size: 1.4rem;
+            opacity: 0.8;
+        }
+        .form-check{
+            height: 3rem;
+            display: flex;
+            align-items: center;
+        }
+        button{
+            background: color(secondary);
+            color: color(primary);
+            outline: none;
+            border: none;
+            border-radius: .5rem;
+            padding: .5rem 2rem;
+        }
+    }
+}
+
+// Register
+.register{
+    font-size: 1.6rem !important;
+    background: color(secondary);
+    .container{
+        padding: 2rem;
+    }
+    form{
+        h1{
+            color: color(secondary);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        width: 60%;
+        margin: auto;
+        background: color(primary);
+        padding: 3rem;
+        border-radius: 1rem;
+        label{
+            color: color(secondary);
+            font-size: 1.8rem;
+        }
+        input[type="email"], input[type="password"], input[type="text"]{
+            color: black;
+            font-size: 1.6rem !important;
+            padding: 1rem .5rem !important;
+        }
+        ::placeholder{
+            font-size: 1.4rem;
+            opacity: 0.8;
+        }
+        .form-check{
+            height: 3rem;
+            display: flex;
+            align-items: center;
+        }
+        button{
+            background: color(secondary);
+            color: color(primary);
+            outline: none;
+            border: none;
+            border-radius: .5rem;
+            padding: .5rem 2rem;
+        }
+    }
+}
+
+// Dashboard
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .side_nav{
+        width: 20%;
+        background: color(secondary);
+        ul{
+            list-style: none;
+            padding-left: 0 !important;
+        }
+        ul li{
+            margin: 1rem 0 !important;
+            text-align: center;
+            a{
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: color(primary);
+                display: block;
+                margin: 0 .5rem;
+                padding: 1rem;
+            }
+        }
+    }
+    .main_body{
+        width: 80%;
+        min-height: 95vh;
+    }
+}

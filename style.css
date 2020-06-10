@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dashboard{
+    float:left;
+}
+
+.icon 
+{
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.category{
+    width:250px;
+}
+  
+  
+            /* div .container{
+                width: 200px;
+                height: 200px;
+                background: red;
+                -webkit-transition: width 2s, height 4s; //For Safari 3.1 to 6.0 
+                transition: width 2s, height 4s;
+            }
+            
+            div .container:hover {
+                width: 300px;
+                height: 300px;
+            }  */

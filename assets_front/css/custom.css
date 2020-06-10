@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+html {
+  font-size: 10px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+a:active{
+  color: #0b1e31 ;
+}
+
+a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.img_wrapper {
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+  overflow: hidden;
+  background-repeat: no-repeat !important;
+}
+
+.header .navbar {
+  background: #607FF2 !important;
+}
+
+.header .navbar a {
+  color: #E9F4FF !important;
+}
+
+.header .collapse .navbar-nav {
+  margin-left: auto;
+}
+
+.header .collapse .navbar-nav .nav-item {
+  margin: 0 1rem;
+  font-size: 1.6rem;
+}
+
+.login {
+  font-size: 1.6rem !important;
+  background: #E9F4FF;
+}
+
+.login .container {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login form {
+  width: 50%;
+  margin: auto;
+  background: #607FF2;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.login form h1 {
+  color: #E9F4FF;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login form label {
+  color: #E9F4FF;
+  font-size: 1.8rem;
+}
+
+.login form input[type="email"], .login form input[type="password"], .login form input[type="text"] {
+  color: black;
+  font-size: 1.6rem !important;
+  padding: 1rem .5rem !important;
+}
+
+.login form ::-webkit-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.login form :-ms-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.login form ::-ms-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.login form ::placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.login form .form-check {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login form button {
+  background: #E9F4FF;
+  color: #607FF2;
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem 2rem;
+}
+
+.register {
+  font-size: 1.6rem !important;
+  background: #E9F4FF;
+}
+
+.register .container {
+  padding: 2rem;
+}
+
+.register form {
+  width: 60%;
+  margin: auto;
+  background: #607FF2;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.register form h1 {
+  color: #E9F4FF;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register form label {
+  color: #E9F4FF;
+  font-size: 1.8rem;
+}
+
+.register form input[type="email"], .register form input[type="password"], .register form input[type="text"] {
+  color: black;
+  font-size: 1.6rem !important;
+  padding: 1rem .5rem !important;
+}
+
+.register form ::-webkit-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.register form :-ms-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.register form ::-ms-input-placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.register form ::placeholder {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.register form .form-check {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register form button {
+  background: #E9F4FF;
+  color: #607FF2;
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem 2rem;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.dashboard .side_nav {
+  width: 20%;
+  background: #E9F4FF;
+}
+
+.dashboard .side_nav ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.dashboard .side_nav ul li {
+  margin: 1rem 0 !important;
+  text-align: center;
+}
+
+.dashboard .side_nav ul li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #607FF2;
+  display: block;
+  margin: 0 .5rem;
+  padding: 1rem;
+}
+
+.dashboard .main_body {
+  width: 80%;
+  min-height: 95vh;
+}
+/*# sourceMappingURL=custom.css.map */
